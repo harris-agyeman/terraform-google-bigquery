@@ -6,8 +6,6 @@ pipeline {
             steps {
                 echo 'Hello, Maven'
                 sh 'mvn --version'
-                sh 'npm install'
-                sh 'npm build'
             }
         }
         stage('Test') {
